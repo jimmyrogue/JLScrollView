@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696937B3277BBFBF605EE7E4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A992A697C89812479E4986 /* Pods.framework */; };
+		810FCC5B1C58585B0083C2B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FCC5A1C58585B0083C2B7 /* AppDelegate.swift */; };
+		810FCC5D1C58585B0083C2B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FCC5C1C58585B0083C2B7 /* ViewController.swift */; };
+		810FCC601C58585B0083C2B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810FCC5E1C58585B0083C2B7 /* Main.storyboard */; };
+		810FCC621C58585B0083C2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810FCC611C58585B0083C2B7 /* Assets.xcassets */; };
+		810FCC651C58585B0083C2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810FCC631C58585B0083C2B7 /* LaunchScreen.storyboard */; };
+		810FCC701C58585C0083C2B7 /* JLScollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FCC6F1C58585C0083C2B7 /* JLScollViewTests.swift */; };
+		810FCC7B1C58585C0083C2B7 /* JLScollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FCC7A1C58585C0083C2B7 /* JLScollViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810FCC6C1C58585C0083C2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810FCC4F1C58585B0083C2B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810FCC561C58585B0083C2B7;
+			remoteInfo = JLScollView;
+		};
+		810FCC771C58585C0083C2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810FCC4F1C58585B0083C2B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810FCC561C58585B0083C2B7;
+			remoteInfo = JLScollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A992A697C89812479E4986 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AA26826C4CBC5A08B9D482 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		810FCC571C58585B0083C2B7 /* JLScollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLScollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		810FCC5A1C58585B0083C2B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		810FCC5C1C58585B0083C2B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		810FCC5F1C58585B0083C2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		810FCC611C58585B0083C2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810FCC641C58585B0083C2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		810FCC661C58585B0083C2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810FCC6B1C58585C0083C2B7 /* JLScollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLScollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		810FCC6F1C58585C0083C2B7 /* JLScollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLScollViewTests.swift; sourceTree = "<group>"; };
+		810FCC711C58585C0083C2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810FCC761C58585C0083C2B7 /* JLScollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLScollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		810FCC7A1C58585C0083C2B7 /* JLScollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLScollViewUITests.swift; sourceTree = "<group>"; };
+		810FCC7C1C58585C0083C2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA28D1A35BDEA5B94E5440AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810FCC541C58585B0083C2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696937B3277BBFBF605EE7E4 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810FCC681C58585C0083C2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810FCC731C58585C0083C2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810FCC4E1C58585B0083C2B7 = {
+			isa = PBXGroup;
+			children = (
+				810FCC591C58585B0083C2B7 /* JLScollView */,
+				810FCC6E1C58585C0083C2B7 /* JLScollViewTests */,
+				810FCC791C58585C0083C2B7 /* JLScollViewUITests */,
+				810FCC581C58585B0083C2B7 /* Products */,
+				90B1854D5F350494AAF778A4 /* Pods */,
+				B248702FE1E43B4D0FB85A3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		810FCC581C58585B0083C2B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810FCC571C58585B0083C2B7 /* JLScollView.app */,
+				810FCC6B1C58585C0083C2B7 /* JLScollViewTests.xctest */,
+				810FCC761C58585C0083C2B7 /* JLScollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810FCC591C58585B0083C2B7 /* JLScollView */ = {
+			isa = PBXGroup;
+			children = (
+				810FCC5A1C58585B0083C2B7 /* AppDelegate.swift */,
+				810FCC5C1C58585B0083C2B7 /* ViewController.swift */,
+				810FCC5E1C58585B0083C2B7 /* Main.storyboard */,
+				810FCC611C58585B0083C2B7 /* Assets.xcassets */,
+				810FCC631C58585B0083C2B7 /* LaunchScreen.storyboard */,
+				810FCC661C58585B0083C2B7 /* Info.plist */,
+			);
+			path = JLScollView;
+			sourceTree = "<group>";
+		};
+		810FCC6E1C58585C0083C2B7 /* JLScollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				810FCC6F1C58585C0083C2B7 /* JLScollViewTests.swift */,
+				810FCC711C58585C0083C2B7 /* Info.plist */,
+			);
+			path = JLScollViewTests;
+			sourceTree = "<group>";
+		};
+		810FCC791C58585C0083C2B7 /* JLScollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				810FCC7A1C58585C0083C2B7 /* JLScollViewUITests.swift */,
+				810FCC7C1C58585C0083C2B7 /* Info.plist */,
+			);
+			path = JLScollViewUITests;
+			sourceTree = "<group>";
+		};
+		90B1854D5F350494AAF778A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19AA26826C4CBC5A08B9D482 /* Pods.debug.xcconfig */,
+				AA28D1A35BDEA5B94E5440AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B248702FE1E43B4D0FB85A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A992A697C89812479E4986 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810FCC561C58585B0083C2B7 /* JLScollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810FCC7F1C58585C0083C2B7 /* Build configuration list for PBXNativeTarget "JLScollView" */;
+			buildPhases = (
+				0B31F32393FF6C6A688BFD5C /* Check Pods Manifest.lock */,
+				810FCC531C58585B0083C2B7 /* Sources */,
+				810FCC541C58585B0083C2B7 /* Frameworks */,
+				810FCC551C58585B0083C2B7 /* Resources */,
+				735CCA2F72223491A9DAB11E /* Embed Pods Frameworks */,
+				2D236AC60F2943159383E966 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLScollView;
+			productName = JLScollView;
+			productReference = 810FCC571C58585B0083C2B7 /* JLScollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		810FCC6A1C58585C0083C2B7 /* JLScollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810FCC821C58585C0083C2B7 /* Build configuration list for PBXNativeTarget "JLScollViewTests" */;
+			buildPhases = (
+				810FCC671C58585C0083C2B7 /* Sources */,
+				810FCC681C58585C0083C2B7 /* Frameworks */,
+				810FCC691C58585C0083C2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810FCC6D1C58585C0083C2B7 /* PBXTargetDependency */,
+			);
+			name = JLScollViewTests;
+			productName = JLScollViewTests;
+			productReference = 810FCC6B1C58585C0083C2B7 /* JLScollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		810FCC751C58585C0083C2B7 /* JLScollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810FCC851C58585C0083C2B7 /* Build configuration list for PBXNativeTarget "JLScollViewUITests" */;
+			buildPhases = (
+				810FCC721C58585C0083C2B7 /* Sources */,
+				810FCC731C58585C0083C2B7 /* Frameworks */,
+				810FCC741C58585C0083C2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810FCC781C58585C0083C2B7 /* PBXTargetDependency */,
+			);
+			name = JLScollViewUITests;
+			productName = JLScollViewUITests;
+			productReference = 810FCC761C58585C0083C2B7 /* JLScollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810FCC4F1C58585B0083C2B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ColdFlame;
+				TargetAttributes = {
+					810FCC561C58585B0083C2B7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					810FCC6A1C58585C0083C2B7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 810FCC561C58585B0083C2B7;
+					};
+					810FCC751C58585C0083C2B7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 810FCC561C58585B0083C2B7;
+					};
+				};
+			};
+			buildConfigurationList = 810FCC521C58585B0083C2B7 /* Build configuration list for PBXProject "JLScollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810FCC4E1C58585B0083C2B7;
+			productRefGroup = 810FCC581C58585B0083C2B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810FCC561C58585B0083C2B7 /* JLScollView */,
+				810FCC6A1C58585C0083C2B7 /* JLScollViewTests */,
+				810FCC751C58585C0083C2B7 /* JLScollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810FCC551C58585B0083C2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810FCC651C58585B0083C2B7 /* LaunchScreen.storyboard in Resources */,
+				810FCC621C58585B0083C2B7 /* Assets.xcassets in Resources */,
+				810FCC601C58585B0083C2B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810FCC691C58585C0083C2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810FCC741C58585C0083C2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B31F32393FF6C6A688BFD5C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D236AC60F2943159383E966 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		735CCA2F72223491A9DAB11E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810FCC531C58585B0083C2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810FCC5D1C58585B0083C2B7 /* ViewController.swift in Sources */,
+				810FCC5B1C58585B0083C2B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810FCC671C58585C0083C2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810FCC701C58585C0083C2B7 /* JLScollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810FCC721C58585C0083C2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810FCC7B1C58585C0083C2B7 /* JLScollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810FCC6D1C58585C0083C2B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810FCC561C58585B0083C2B7 /* JLScollView */;
+			targetProxy = 810FCC6C1C58585C0083C2B7 /* PBXContainerItemProxy */;
+		};
+		810FCC781C58585C0083C2B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810FCC561C58585B0083C2B7 /* JLScollView */;
+			targetProxy = 810FCC771C58585C0083C2B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		810FCC5E1C58585B0083C2B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810FCC5F1C58585B0083C2B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		810FCC631C58585B0083C2B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810FCC641C58585B0083C2B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810FCC7D1C58585C0083C2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		810FCC7E1C58585C0083C2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810FCC801C58585C0083C2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AA26826C4CBC5A08B9D482 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLScollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldflame.JLScollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		810FCC811C58585C0083C2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA28D1A35BDEA5B94E5440AB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLScollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coldflame.JLScollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		810FCC831C58585C0083C2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLScollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColdFlame.JLScollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLScollView.app/JLScollView";
+			};
+			name = Debug;
+		};
+		810FCC841C58585C0083C2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JLScollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColdFlame.JLScollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLScollView.app/JLScollView";
+			};
+			name = Release;
+		};
+		810FCC861C58585C0083C2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLScollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColdFlame.JLScollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLScollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		810FCC871C58585C0083C2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JLScollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColdFlame.JLScollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JLScollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810FCC521C58585B0083C2B7 /* Build configuration list for PBXProject "JLScollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810FCC7D1C58585C0083C2B7 /* Debug */,
+				810FCC7E1C58585C0083C2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810FCC7F1C58585C0083C2B7 /* Build configuration list for PBXNativeTarget "JLScollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810FCC801C58585C0083C2B7 /* Debug */,
+				810FCC811C58585C0083C2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810FCC821C58585C0083C2B7 /* Build configuration list for PBXNativeTarget "JLScollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810FCC831C58585C0083C2B7 /* Debug */,
+				810FCC841C58585C0083C2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810FCC851C58585C0083C2B7 /* Build configuration list for PBXNativeTarget "JLScollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810FCC861C58585C0083C2B7 /* Debug */,
+				810FCC871C58585C0083C2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 810FCC4F1C58585B0083C2B7 /* Project object */;
+}
