@@ -15,6 +15,7 @@
 		810FCC651C58585B0083C2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810FCC631C58585B0083C2B7 /* LaunchScreen.storyboard */; };
 		810FCC701C58585C0083C2B7 /* JLScollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FCC6F1C58585C0083C2B7 /* JLScollViewTests.swift */; };
 		810FCC7B1C58585C0083C2B7 /* JLScollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FCC7A1C58585C0083C2B7 /* JLScollViewUITests.swift */; };
+		810FCC891C585F170083C2B7 /* JLScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FCC881C585F170083C2B7 /* JLScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		810FCC761C58585C0083C2B7 /* JLScollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLScollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810FCC7A1C58585C0083C2B7 /* JLScollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLScollViewUITests.swift; sourceTree = "<group>"; };
 		810FCC7C1C58585C0083C2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810FCC881C585F170083C2B7 /* JLScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLScrollView.swift; sourceTree = "<group>"; };
 		AA28D1A35BDEA5B94E5440AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				810FCC611C58585B0083C2B7 /* Assets.xcassets */,
 				810FCC631C58585B0083C2B7 /* LaunchScreen.storyboard */,
 				810FCC661C58585B0083C2B7 /* Info.plist */,
+				810FCC881C585F170083C2B7 /* JLScrollView.swift */,
 			);
 			path = JLScollView;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			files = (
 				810FCC5D1C58585B0083C2B7 /* ViewController.swift in Sources */,
 				810FCC5B1C58585B0083C2B7 /* AppDelegate.swift in Sources */,
+				810FCC891C585F170083C2B7 /* JLScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
